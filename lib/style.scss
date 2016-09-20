@@ -1,0 +1,136 @@
+@import '_reset';
+
+$message-display: #ffffff;
+$primary-background: #2c3e50;
+$ridiculous: cursive;
+
+
+body {
+  background: $message-display;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: .2px;
+}
+rgb(164, 168, 170)
+.MessageFilters {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background: $primary-background;
+  justify-content: flex-end;
+  align-items: center;
+  h1 {
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 5px;
+  }
+  button {
+    background: #3498db;
+    height: 30px;
+    margin: 0px 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    letter-spacing: .2px;
+  }
+  input {
+    height: 30px;
+    width: 250px;
+    margin: 0px auto 0px 10px;
+    border-radius: 5px;
+    background-color: #D8D8D8;
+    font-weight: 300;
+    letter-spacing: .2px;
+  }
+  input::-webkit-input-placeholder {
+   color: #34495E;
+   font-size: 12px;
+   padding-left: 10px;
+  }
+}
+
+#new-message--content {
+  height: 100px;
+  border: 1px dotted aliceblue;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  padding
+  .Messages {
+    width: 75%;
+  }
+  .Users {
+    width: 25%;
+    background-color:#bdc3c7;
+  }
+}
+
+.MessageInput {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background: $primary-background;
+  justify-content: flex-end;
+  align-items: center;
+  button {
+    background: #3498db;
+    height: 30px;
+    margin: 0px 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    letter-spacing: .2px;
+  }
+  input {
+    height: 30px;
+    width: 250px;
+    margin: 0px auto 0px 10px;
+    border-radius: 5px;
+    background-color: #D8D8D8;
+    font-weight: 300;
+    letter-spacing: .2px;
+  }
+  input::-webkit-input-placeholder {
+   color: #34495E;
+   font-size: 12px;
+   padding-left: 10px;
+ }
+
+  div {
+    color: #ffffff;
+    margin: 10px;
+  }
+  .NewMessageButton {
+    background-color: #2DCB70;
+  }
+  .ClearButton {
+    background-color: #E84C3D;
+  }
+}
+
+.Users {
+  background-color: #ecf0f1;
+  p{
+    font-weight: 300;
+  }
+}
+
+.CurrentUser {
+  background-color:#95a5a6;
+}
+
+.ActiveUser {
+  display: flex;
+  flex-direction: row;
+  background-color: #95a5a6;
+
+ button{
+   margin-left: auto;
+ }
+}
